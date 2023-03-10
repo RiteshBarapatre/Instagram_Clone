@@ -1,0 +1,80 @@
+.post{
+    padding-top: 20px;
+    width: 90%;
+}
+
+.post__header{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.post__headerAvatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    border: 1px solid red;
+}
+.post__post{
+    width: 100%;
+    background-color: red;
+    height: 100vh;
+    margin-top: 15px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.post__likes{
+    padding: 15px 0px;
+    display: flex;
+}
+.post__likes > .MuiSvgIcon-root{
+    font-size: 26px;
+    
+}
+.post__likesIcons{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.post__likedBy{
+    margin-bottom: 8px;
+    margin-left: 2px;
+}
+.post__caption{
+    margin-left: 2px;
+}
+.post__comments{
+    margin-bottom: 15px;
+}
+.post__allComments{
+    color: grey;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.post__inputComment{
+    background-color: inherit;
+    border: none;
+    color: white;
+    border-bottom: 1px solid grey;
+    outline: none;
+    width: 90%;
+    height: 5vh;
+    padding-bottom: 10px;
+    font-size:15px;
+}
+.post__inputComment ::placeholder{
+    color: grey;
+}
+.post__inputs{
+    display: flex;
+    align-items: center;
+}
+.post__commentEmoji{
+    padding-left: 5px;
+    cursor: pointer;
+}

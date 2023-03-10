@@ -1,0 +1,29 @@
+.stories {
+  display: flex;
+  height: fit-content;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  align-items: center;
+  padding-top: 45px; 
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.stories__main{
+    padding: 8px;
+    cursor: pointer; 
+}
+.stories__main > p{
+    font-size: 14px;
+    padding-top: 5px;
+    text-align: center;
+}
+.stories_story{
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 50px;
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.Right_side{
+    margin-top: 55px;
+    font-family: 'Roboto', sans-serif;
+    width: 27%;
+}
+.right__header{
+    display: flex;
+    align-items: center;
+}
+.right__userImage{
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 50px;
+    object-fit: contain;
+}
+.right__userInfo{
+    margin-left: 20px;
+}
+.right__userInfoName{
+    margin-top: 3px;
+    font-size: 15px;
+    color: grey;
+}
+.right__userInfoSwitch{
+    margin-left: auto;
+    font-size: 14px;
+    color: rgb(0, 149, 246);
+}
+.right__suggestion{
+    color: gray;
+    margin: 12px 0px;
+    font-size: 15px;
+    display: flex;
+}
+.right__seeAll{
+    margin-left: auto;
+    color: white;
+    font-size: 12px;
+}
+.right__seeAll:hover{
+    color: grey;
+}
+
+.right__suggestionUser{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.right__suggestionUserAvatar{
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    object-fit: contain;
+}
+.right__suggestionUserInfo{
+    margin-left: 20px; 
+}
+.right__suggestionUserName{
+    color: grey;
+    font-size: 13px;
+    margin-top: 3px;
+}
+.right__suggestionUserFollow{
+    margin-left: auto;
+    font-size: 14px;
+    color: rgb(0, 149, 246);
+}
+.right__suggestionUserFollow:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+.right__footer{
+    font-size: 12px;
+    color: grey;
+    margin-top: 7vh;
+}
+
+.fromMeta{
+    font-size: 12px;
+    color: grey;
+    margin-top: 7vh;
+}
+
+.right__footer span:hover{
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}

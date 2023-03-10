@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.Middle{
+    width: 46%;
+    height: 100vh;
+    overflow-x: hidden;
+    padding: 0px 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.post__center{
+    display: flex;
+    justify-content: center;
+    
+}

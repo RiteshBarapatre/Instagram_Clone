@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.Left_side{
+    width: 20%;
+    height: 100vh;
+    border-right: 1px solid gray;
+}
+.Left_side_logo{
+    font-family: 'Lobster Two', cursive;
+    font-size: 27px;
+    height: 15%;   
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+.Left_side_Elements{
+    font-family: 'Roboto', sans-serif;
+    height: 85%;
+    font-size: 16px;
+    font-weight: 100;
+}
+.Left_side_Elements_Element{
+    padding: 4px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.Left_side_Elements_Element:hover{
+    transition: 0.3s ease-in-out;
+    background-color:rgb(60, 56, 56);
+}
+.Left_side_Elements_Element_name{
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 6px;
+}
